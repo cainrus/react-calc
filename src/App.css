@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
+  align-items: center;
+
+}
+.Calc {
+  margin: 0 auto
 }
 
 .App-logo {
