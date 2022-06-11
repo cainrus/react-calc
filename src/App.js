@@ -1,14 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import logo from './logo.svg';
 import Calc from './components/Calc';
 
 function App() {
   return (
     <div className="App">
-
-
-
       <header className="App-header" style={{ display: 'none' }}>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -23,7 +21,6 @@ function App() {
           Learn React
         </a>
       </header>
-
       <Calc ></Calc>
     </div>
   );
